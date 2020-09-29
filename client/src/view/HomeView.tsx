@@ -1,6 +1,6 @@
 import React /*,{ useState }*/ from 'react';
 
-export default function MainView() {
+export default function HomeView() {
   return (
     <div className="wrapping">
       <div className="cover">
