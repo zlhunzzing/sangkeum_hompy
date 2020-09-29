@@ -1,0 +1,23 @@
+.wrapping {
+  width: 880px;
+  height: 660px;
+  background-color: pink;
+  text-align: center;
+}
+.cover {
+  float: left;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 85%;
+  height: 90%;
+  background-color: rgb(243, 211, 211);
+  border-radius: 5px;
+}
+.content {
+  display: inline-block;
+  margin-top: 15px;
+  width: 95%;
+  height: 95%;
+  background-color: white;
+  border-radius: 10px;
+}
