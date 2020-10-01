@@ -5,8 +5,18 @@ export default function ProfileComponent() {
   const [content, setContent] = useState('안녕하세요');
 
   return (
-    <span className="profileBox">
-      <div className="profileImage"></div>
+    <span>
+      <div
+        className="profileImage"
+        style={{
+          margin: '0 auto',
+          marginTop: '15px',
+          width: '140px',
+          height: '140px',
+          borderRadius: '100px',
+          backgroundColor: 'rgb(240, 240, 240)',
+        }}
+      ></div>
       <br></br>
       {!isUpdate ? (
         <div>
@@ -17,6 +27,13 @@ export default function ProfileComponent() {
             className="profileInput"
             onClick={() => {
               setIsUpdate(true);
+            }}
+            style={{
+              bottom: '0%',
+              width: '50px',
+              height: '30px',
+              border: '0px',
+              borderRadius: '3px',
             }}
           >
             수정

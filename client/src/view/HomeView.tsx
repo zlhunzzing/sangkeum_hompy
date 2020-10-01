@@ -1,4 +1,5 @@
 import React /*,{ useState }*/ from 'react';
+import MiniRoomComponent from '../component/MiniRoomComponent';
 import ProfileComponent from '../component/ProfileComponent';
 
 export default function HomeView() {
@@ -6,7 +7,12 @@ export default function HomeView() {
     <div className="wrapping">
       <div className="cover">
         <div className="content">
-          <ProfileComponent></ProfileComponent>
+          <span className="sideContent">
+            <ProfileComponent></ProfileComponent>
+          </span>
+          <div className="mainContent">
+            <MiniRoomComponent></MiniRoomComponent>
+          </div>
         </div>
       </div>
     </div>
