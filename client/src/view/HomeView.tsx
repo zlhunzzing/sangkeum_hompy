@@ -1,5 +1,6 @@
-import React /*,{ useState }*/ from 'react';
+import React from 'react';
 import MiniRoomComponent from '../component/MiniRoomComponent';
+import MenuComponent from '../component/MenuComponent';
 import ProfileComponent from '../component/ProfileComponent';
 
 export default function HomeView() {
@@ -13,6 +14,7 @@ export default function HomeView() {
           <div className="mainContent">
             <MiniRoomComponent></MiniRoomComponent>
           </div>
+          <MenuComponent></MenuComponent>
         </div>
       </div>
     </div>
