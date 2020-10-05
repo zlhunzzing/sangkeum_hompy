@@ -25,6 +25,24 @@ import Home from './page/Home';
 //   false,
 // );
 
+// function openWindow() {
+//   window.open(
+//     'http://localhost:3000',
+//     'sangkeum',
+//     /*'toolbar=0, location=0, status=0, menubar=0, scrollbars=1, resizable=1, top=10, left=20,*/ 'width=900, height=680',
+//   );
+// }
+
+// document.addEventListener(
+//   'keypress',
+//   function (e) {
+//     if (e.keyCode === 13) {
+//       openWindow();
+//     }
+//   },
+//   false,
+// );
+
 function App() {
   return (
     <div className="App">
