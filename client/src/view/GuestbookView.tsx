@@ -58,7 +58,9 @@ const GuestbookView: React.FunctionComponent<Props> = ({
             {comments
               ? comments.map((comment: string, id: number) => (
                   <div key={id}>
-                    <div style={{ textAlign: 'left' }}>{comment}</div>
+                    <div style={{ textAlign: 'left', padding: '3px' }}>
+                      {comment}
+                    </div>
                     <div
                       style={{ borderTop: '1px solid gray', width: '100%' }}
                     ></div>

@@ -20,6 +20,7 @@ export default function MenuComponent() {
           history.push('/');
         }}
       >
+        <hr style={{ marginTop: '0', opacity: '0' }}></hr>
         Home
       </li>
       <li
@@ -31,6 +32,7 @@ export default function MenuComponent() {
           history.push('/guestbook');
         }}
       >
+        <hr style={{ marginTop: '0', opacity: '0' }}></hr>
         방명록
       </li>
     </span>

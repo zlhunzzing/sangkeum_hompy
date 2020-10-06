@@ -1,8 +1,17 @@
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('./font/DungGeunMo.ttf');
+}
+button {
+  font-family: 'DungGeunMo';
+}
+
 .wrapping {
   text-align: center;
   width: 880px;
   height: 660px;
   background-color: pink;
+  font-family: 'DungGeunMo';
 }
 .cover {
   float: left;
@@ -45,6 +54,14 @@
   border: 1px solid gray;
   border-radius: 10px;
   overflow: hidden;
+}
+
+.profileInput {
+  bottom: 0%;
+  width: 50px;
+  height: 30px;
+  border: 0px;
+  border-radius: 3px;
 }
 
 .currentMenu {

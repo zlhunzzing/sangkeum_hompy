@@ -28,13 +28,6 @@ export default function ProfileComponent() {
             onClick={() => {
               setIsUpdate(true);
             }}
-            style={{
-              bottom: '0%',
-              width: '50px',
-              height: '30px',
-              border: '0px',
-              borderRadius: '3px',
-            }}
           >
             수정
           </button>
@@ -46,10 +39,15 @@ export default function ProfileComponent() {
             setIsUpdate(false);
           }}
         >
-          <textarea onChange={({ target: { value } }) => setContent(value)}>
+          <textarea
+            onChange={({ target: { value } }) => setContent(value)}
+            style={{
+              textAlign: 'center',
+            }}
+          >
             {content}
           </textarea>
-          <button className="profileInput"></button>
+          <button className="profileInput">확인</button>
         </form>
       )}
     </span>
