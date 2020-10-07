@@ -43,9 +43,14 @@ button {
   border: 1px solid gray;
   border-radius: 10px;
 }
+.hompyTitle {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 210px;
+}
 .mainContent {
   float: left;
-  margin-top: 45px;
+  margin-top: 10px;
   left: 0%;
   bottom: 0%;
   background-color: white;

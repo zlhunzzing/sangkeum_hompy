@@ -11,6 +11,7 @@ export default function HomeView() {
           <span className="sideContent">
             <ProfileComponent></ProfileComponent>
           </span>
+          <div className="hompyTitle">홈 화면 입니다</div>
           <div className="mainContent">
             <MiniRoomComponent></MiniRoomComponent>
           </div>

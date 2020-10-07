@@ -21,6 +21,7 @@ const GuestbookView: React.FunctionComponent<Props> = ({
         <span className="sideContent">
           <ProfileComponent></ProfileComponent>
         </span>
+        <div className="hompyTitle">방명록 입니다</div>
 
         <div className="mainContent">
           <div style={{ margin: '15px' }}>
